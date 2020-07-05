@@ -1,3 +1,6 @@
+// Promise.all Sirve para ejecutar una lista de promesas. Las ejecuta en orden.
+//     No se ejecutan las proximas hasta que no se termina la actual.
+
 const primera_promesa = new Promise((resolve, reject) => {
     setTimeout(resolve, 1000, 1);
 })
